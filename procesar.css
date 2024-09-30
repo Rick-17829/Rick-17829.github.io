@@ -1,0 +1,54 @@
+/* Archivo styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+}
+
+.contenedor-imagen,
+.mensaje {
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.contenedor-imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.mensaje {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+.mensaje p {
+    margin: 0 0 10px;
+}
+
+.mensaje .exito {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.mensaje .detalle {
+    color: #333;
+    margin-bottom: 5px;
+}

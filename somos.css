@@ -1,0 +1,43 @@
+/* Archivo styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img/fonsom.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.compania h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #007bff;
+}
+
+.nombres ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.nombres li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}

@@ -1,0 +1,52 @@
+.parrafo {
+    background-color: #fff;  /* Fondo blanco para contraste */
+    padding: 20px;  /* Espaciado interno alrededor del contenido */
+    margin: auto;  /* Centrando el div con algo de margen */
+    max-width: 1850px;  /* Ancho máximo para limitar el ancho del contenido */
+    border-radius: 5px;  /* Bordes redondeados para un aspecto más suave */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  /* Sombra sutil para profundidad */
+}
+
+/* Estilos para el encabezado principal (h2) */
+.parrafo h2 {
+    font-size: 2.5rem;  /* Tamaño de fuente más grande para el encabezado principal */
+    text-align: center;  /* Centrar el encabezado principal */
+    color: #333;  /* Color más oscuro para el encabezado principal */
+    margin-bottom: 20px;  /* Margen debajo del encabezado */
+}
+
+/* Estilos para los subtítulos (h3) */
+.parrafo h3 {
+    font-size: 2rem;  /* Tamaño de fuente ligeramente menor que el encabezado principal */
+    color: #007BFF;  /* Color azul para los subtítulos */
+    margin-top: 20px;  /* Margen encima de los subtítulos */
+    margin-bottom: 10px;  /* Margen debajo de los subtítulos */
+}
+
+/* Estilos para los párrafos (p) */
+.parrafo p {
+    font-size: 1.1rem;  /* Tamaño de fuente para mejor legibilidad */
+    color: #555;  /* Color gris oscuro para los párrafos */
+    text-align: justify;  /* Justificar el texto para alineación uniforme */
+    line-height: 1.6;  /* Altura de línea para mejor legibilidad */
+    margin-top: 10px;  /* Margen encima de los párrafos */
+    margin-bottom: 10px;  /* Margen debajo de los párrafos */
+}
+
+/* Estilos adicionales para enlaces dentro de los párrafos */
+.parrafo p a {
+    color: #007BFF;  /* Color azul para los enlaces */
+    text-decoration: underline;  /* Subrayar enlaces */
+}
+
+/* Estilos para listas dentro de la sección parrafo */
+.parrafo ul, .parrafo ol {
+    margin: 20px 0;  /* Margen alrededor de las listas */
+    padding-left: 40px;  /* Espaciado para indentar las listas */
+}
+
+/* Estilos para elementos de lista */
+.parrafo li {
+    margin-bottom: 10px;  /* Margen debajo de los elementos de lista */
+    line-height: 1.6;  /* Altura de línea para elementos de lista */
+}

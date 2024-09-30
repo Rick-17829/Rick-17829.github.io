@@ -1,0 +1,145 @@
+body {
+    background: url(img/reg1.jpg);
+    background: no repeat;
+   background-size: cover;
+}
+
+
+
+.form {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,15%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+      background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+  }
+  
+  .title {
+    font-size: 28px;
+    color: rgba(217, 223, 241, 0.767);
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+  .message, .signin {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  .signin a {
+    color: royalblue;
+  }
+  
+  .signin a:hover {
+    text-decoration: underline royalblue;
+  }
+  
+  .flex {
+    display: -webkit-inline-flex;
+    width: 110%;
+    gap: 100px;
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    width: 95%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+
+  }
+  
+  .form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,.form label .input:valid + span {
+    top: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form label .input:valid + span {
+    color: green;
+  }
+  
+  .submit {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    transform: .3s ease;
+    color: white;
+    font-weight: 500;
+    height: 18%;
+    background: linear-gradient(144deg,#33724d,
+                #180d7c 45%,#00ddeb);
+    border-radius: 8px;
+    border: none;
+    box-shadow: inset 1px 3px 3px #ffffffbd,
+                 inset -4px -4px 3px #00000046;
+    background-size: 150% 150%;
+    text-align: center;
+    
+  }
+
+  
+ 
+  .submit:hover {
+    position: relative;
+    bottom: 3px;
+    background: linear-gradient(144deg,#9706ff,
+                #2f0fff 50%,#18f0ff);
+  }
+
+  .registro{
+        font-family: Arial, sans-serif;
+        color: #fff;
+        border-radius: 2%;
+        border-color: black;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 2%;
+  }

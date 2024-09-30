@@ -1,0 +1,246 @@
+body {
+  background-image: url(img/linea3.jpg);
+  background-position: center center;
+  background-size: cover;
+} 
+ 
+ :root{
+    --main-c:#fdd72d;
+    --border-r:.2rem;
+  }
+  
+  /** Estilos Generales **/
+  
+  html *{
+   margin: 0; 
+   padding: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  p{
+    font-size: 1.1rem;
+  }
+  
+  a{
+    text-decoration:none;
+    color:rgba(0, 0, 0, 0.7);
+  }
+  
+  ul, li{
+    list-style: none;
+  }
+  
+  .wrap-cta{
+    padding: 1.5rem 0;
+  }
+  
+  .cta-a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: var(--main-c);
+    padding: .5rem 1rem;
+    border-radius: var(--border-r);
+  }
+  
+  h1{
+    font-size: 2.8rem;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+  h3{
+    font-size: 2.2rem;
+  }
+  
+  /** Header **/
+  
+  .header-landing{
+    display: flex;
+    justify-content: center;
+    background: #e2dddd;
+    padding: 1%;
+    width: 100%;
+    ;
+  }
+  
+  .logo-header{
+    max-width: 35px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /** Hero Section **/
+  
+
+
+  .hero-section{
+    height: 90vh;
+    background-image: url(img/explotour.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(106, 141, 163, 0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+  }
+  
+  .wrap-hero-section{
+    max-width: 800px;
+    color: #e4d7d7;
+    padding: 15%;
+    margin-left: 12%;
+    margin-top: 5%;
+  }
+  
+  /** Logo Brand Section **/
+  .secetion{
+    margin: 5rem 0;
+  }
+  
+  .section h2{
+    padding: 2rem 0;
+  }
+  
+  
+  /** Wrap Title **/
+  
+  .wrap-title-section{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 1rem;
+    color: #000000;
+  }
+  
+  /** Servicios Section **/
+  
+  .wrap-servicios-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  .item-servicios-section{
+    padding: 1rem;
+  }
+  
+  .item-servicios-section img{
+    width: 300px;
+    height: 225px;
+   border-radius: 5%;
+
+  }
+  
+  /** Two Columns Section **/
+  
+  .wrap-two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .wrap-img_two-column{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    
+  }
+  
+  .wrap-text-column h3{
+    padding: 2rem 0;
+  }
+  
+  .wrap-text-column p{
+    padding-bottom: 1rem;
+  }
+  
+  /** Form Section **/
+  
+  section.two-column-section.form{
+    background-color: #d6d5cdfb;
+    padding: 3rem 0;
+  }
+  
+  .form input, .form textarea{
+    display: flex;
+    width: 100%;
+    line-height: 1.75rem;
+    border: 1.5px solid #09191d;
+    border-radius: var(--border-r);
+  }
+  
+  .form textarea{
+    min-height: 200px;
+
+  }
+  
+  input[type="submit"]{
+    border: 0;
+    display: inline;
+    cursor: pointer;
+  }
+  
+  /** Footer **/
+  
+
+  .footer-section {
+    background-color: #214d57;
+  }
+  .footer-section{
+    max-width: 1850px;
+    margin: auto;
+  }
+  
+  .menu-footer-section{
+    padding: 1rem 0;
+  }
+  
+  .wrap-social-logos ul, .wrap-menu-footer-section ul{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-logo{
+    max-width: 75px;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .wrap-menu-footer-section ul li{
+    font-size: 1.1rem;
+    padding: 1.5rem;
+    color: #000000;
+  }
+
+  
+  
+  .footer-creds{
+    display: flex;
+    justify-content: center;
+    color:#fff;
+  }
+
+  .IMG{
+  background-image: url(img/section22.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat ;
+
+  }
+
+  .enlaces{
+    color: #e2dddd;
+
+          
+  }
+
+  .msgreg{
+    font-size: 2.5rem;  /* Tamaño de fuente más grande para el encabezado principal */
+    text-align: center;  /* Centrar el encabezado principal */
+    color: #000000de;  /* Color más oscuro para el encabezado principal */
+
+  }
